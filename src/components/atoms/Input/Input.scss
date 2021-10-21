@@ -1,0 +1,50 @@
+Input,
+p {
+  margin-left: 10px;
+}
+p {
+  font-size: 13px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.container {
+  padding-bottom: 16px;
+  height: 100px;
+}
+.input-user {
+  width: 354px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid #b3cdf8;
+  color: #333333;
+  font-family: Montserrat;
+  font-weight: 400;
+  outline-color: #5c98f1;
+  outline-width: 1px;
+  background: #ffffff;
+  margin-bottom: 0px;
+  &:invalid {
+    border: 1px solid#fb6262;
+    background: url('./icons/Vector.svg') no-repeat 95% 50%;
+    margin-bottom: 0px;
+    ~ .wrong {
+      display: block;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+  }
+  &::placeholder {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #9f9f9f;
+  }
+}
+.wrong {
+  color: #fb6262;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-left: 16px;
+  display: none;
+}

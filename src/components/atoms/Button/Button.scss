@@ -1,0 +1,26 @@
+.btn-login {
+  margin-top: 16px;
+  margin-left: 10px;
+  width: 233px;
+  height: 56px;
+  text-align: center;
+  background: #5c98f1;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    background: #4583de;
+  }
+  &:active {
+    background: #2c6ac7;
+  }
+  &:disabled {
+    background: #d1d1d1;
+    cursor: default;
+  }
+}
