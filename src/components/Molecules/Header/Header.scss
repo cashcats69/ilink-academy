@@ -1,0 +1,19 @@
+.header-chatty {
+  height: 78px;
+  width: 100%;
+  border: 1px solid #88abe3;
+  border-right: 0;
+  border-left: 0;
+  position: relative;
+}
+.header-svg {
+  position: absolute;
+  margin-left: 15px;
+  top: 25%;
+}
+.header-user {
+  margin: 0;
+  float: right;
+  margin-right: 15px;
+  margin-top: 8px;
+}

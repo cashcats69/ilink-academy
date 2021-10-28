@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.scss';
-import Input from './components/atoms/Input/Input';
-import Button from './components/atoms/Button/Button';
+import {Routes} from './routes/index';
 function App() {
   return (
     <React.Fragment>
-    <Input />
-    <Button />
+    <Routes />
     </React.Fragment>
   );
 }
