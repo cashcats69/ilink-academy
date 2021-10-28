@@ -1,4 +1,18 @@
 .chat-area {
   background-image: url('./ChatAreaIcons/backgroundChat.svg');
   width: 200vh;
+  position: relative;
+}
+.choose-chat {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  border: 1px solid #5e93e7;
+  border-radius: 40px;
+  width: 350px;
+  height: 50px;
+  text-align: center;
+}
+.choose-chat p {
+  line-height: 20px;
 }
