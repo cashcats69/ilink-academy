@@ -1,1 +1,9 @@
-
+.chat-page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.users-n-chat {
+  display: flex;
+  flex-direction: row;
+}

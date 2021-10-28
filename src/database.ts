@@ -1,5 +1,11 @@
 const database =[
   {
+    id:'',
+    userImage:'',
+    userName:'',
+    lastMessage:'',
+  },
+  /*{
     id:'1',
     userImage:'../src/components/Molecules/UserList/UserIcons/user-logo.png',
     userName:'Vasya Pupkin ',
@@ -22,6 +28,6 @@ const database =[
     userImage:'../src/components/Molecules/UserList/UserIcons/user-logo.png',
     userName:'Dead Maxim',
     lastMessage:'Vot i pomer',
-  },
+  },*/
 ]
 export default database
